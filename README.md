@@ -57,7 +57,6 @@ Role with Administrator privileges and grant it to IAM User. Extract that
 user's credentials and use them to configure your local AWS CLI client, as
 well as entering them into "run2.sql" script.
 
-
 ## Deployment
 
 The deployment scripts assumes you have fully working AWS CLI client and
@@ -65,8 +64,15 @@ Python SDK installed and configured on your machine. Usually this is done by
 running _"pip install boto3 awscli"_, followed by _"aws configure"_. The end
 goal is to execute _"aws s3 ls"_ without errors.
 
+__NOTE:__ Before attempting the deployment, please store the _"oracle.pem"_
+ssh key into your _"~" home_ diredtory. For obvious reasons this file is _not_
+part of this repository and will be provided to you by your AWS contact.
+
 To deploy this blueprint, execute _"run1.py"_ script.
 The following is a log of successful deployment session from my machine.
+
+__WARNING:__ This deployment will incur standard run-time charges to your AWS
+account! Do not attempt to deploy this solution if charges are not acceptable.
 
 <pre><code>
 [u1@fed dl_to_db]$ ./run1.py
