@@ -78,15 +78,18 @@ account! Do not attempt to deploy this solution if charges are not acceptable.
 ===
 ... running as user aidayc2q6y2eflhctx7wh
 ... using S3 bucket s3-aidayc2q6y2eflhctx7wh in us-east-2
-... Full 566MB data set:
-https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2020-01.csv
+... Full 566MB data set: https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2020-01.csv
 ... You can download it and overwrite this short version.
 ... storing file yellow_tripdata_2020-01.csv, please wait ...
 ... launching OUL VM oul-aidayc2q6y2eflhctx7wh in us-east-2
-DDHub2021
-my2019@gmx.com
-[Configure the AWS Command Line Interface
-](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) .
+... deploying AMI ami-0e1c04b7f2864a236, please wait ...
+... (Sun Aug  8 13:00:31 2021) waiting 2 min before contacting oul-aidayc2q6y2eflhctx7wh on us-east-2
+... launched Instance oul-aidayc2q6y2eflhctx7wh (3.131.128.118) in us-east-2
+Warning: Permanently added '18.221.187.123' (ED25519) to the list of known hosts.
+Linux oul 5.4.17-2102.203.6.el8uek.x86_64 #2 SMP Wed Jul 21 17:45:32 PDT 2021 GNU/Linux
+listener.ora                                                         100%  189     0.3KB/s   00:00
+tnsnames.ora                                                         100%  264     0.7KB/s   00:00
+s.sh                                                                 100%  446     0.5KB/s   00:00
 TNSLSNR for Linux: Version 19.0.0.0.0 - Production
 System parameter file is
 /opt/oracle/product/19c/dbhome_1/network/admin/listener.ora
