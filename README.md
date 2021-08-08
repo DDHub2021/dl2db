@@ -138,8 +138,8 @@ in us-east-2 and run SQL scripts in sequential order.
 
 6. **Execute SQL**  - the last step is to connect to your newly created Oracle
 database with your favourite SQL Tool and to execute SQL scripts (_run2.sql,
-run3.sql_). Do not forget to copy and paste your AWS IAM User credentials from
-_"~/.aws/credentials"_ to the head of "run2.sql" script.
+run3.sql_). Do not forget to copy and paste _your AWS IAM User credentials_ from
+_"~/.aws/credentials"_ and _name of your S3 bucket_ to the body of "run2.sql" script.
 
 7. **Explore**  - from this moment on you may let your imagination go wild,
 running any creative SQL reports you wish. As mentioned before, to see the
