@@ -84,7 +84,7 @@ account! Do not attempt to deploy this solution if charges are not acceptable.
 ... launching OUL VM oul-aidayc2q6y2eflhctx7wh in us-east-2
 ... deploying AMI ami-0e1c04b7f2864a236, please wait ...
 ... (Sun Aug  8 13:00:31 2021) waiting 2 min before contacting oul-aidayc2q6y2eflhctx7wh on us-east-2
-... launched Instance oul-aidayc2q6y2eflhctx7wh (3.131.128.118) in us-east-2
+... launched Instance oul-aidayc2q6y2eflhctx7wh (18.221.187.123) in us-east-2
 Warning: Permanently added '18.221.187.123' (ED25519) to the list of known hosts.
 Linux oul 5.4.17-2102.203.6.el8uek.x86_64 #2 SMP Wed Jul 21 17:45:32 PDT 2021 GNU/Linux
 listener.ora                                                         100%  189     0.3KB/s   00:00
@@ -136,12 +136,12 @@ in us-east-2 and run SQL scripts in sequential order.
 [u1@fed dl_to_db]$
 </pre></code>
 
-5. **Execute SQL**  - the last step is to connect to your newly created Oracle
+6. **Execute SQL**  - the last step is to connect to your newly created Oracle
 database with your favourite SQL Tool and to execute SQL scripts (_run2.sql,
 run3.sql_). Do not forget to copy and paste your AWS IAM User credentials from
 _"~/.aws/credentials"_ to the head of "run2.sql" script.
 
-6. **Explore**  - from this moment on you may let your imagination go wild,
+7. **Explore**  - from this moment on you may let your imagination go wild,
 running any creative SQL reports you wish. As mentioned before, to see the
 full data set just upload 566MB CSV to newly created S3 bucket, replacing the
 smaller version there. Do not change the name of the file!
