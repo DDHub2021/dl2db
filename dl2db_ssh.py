@@ -1,5 +1,5 @@
 # vim: ts=2:sw=2:expandtab:softtabstop=2
-import boto3, sys, os, json
+import boto3, sys, os#, json
 import urllib.request
 
 
@@ -7,9 +7,11 @@ import urllib.request
 def check_ssh_keys():
  print("===")
  try:
-    response = urllib.request.urlopen('https://api.myip.com')
-    r1 = json.loads(response.read())
-    extip = r1['ip']
+    response = urllib.request.urlopen('http://checkip.amazonaws.com/')
+    # Could use https://api.myip.com
+    #r1 = json.loads(response.read())
+    r1 = response.read()
+    extip = r1#['ip']
     # TODO: Do I want to add this IP to the "default" secgroup here?
     # Not sure, it might be many groups and I wouldn't want to play there.
     open(f"{homedir}/oracle.pem")
