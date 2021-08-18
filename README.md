@@ -161,6 +161,5 @@ _"~/.aws/credentials"_ and _name of your S3 bucket_ to the body of "run2.sql" sc
 running any creative SQL reports you wish. As mentioned before, to see the
 full data set just upload 566MB CSV to newly created S3 bucket, replacing the
 smaller version there. Do not change the name of the file!  
-
 The SQL statements in "_run3.sql_" file provide a starting point - you may find
 out what was the average tip amount in January 2020!
